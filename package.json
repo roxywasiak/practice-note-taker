@@ -1,0 +1,23 @@
+{
+  "name": "practice-note-taker",
+  "version": "1.0.0",
+  "description": "practising-for-not-taker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roxywasiak/practice-note-taker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roxywasiak/practice-note-taker/issues"
+  },
+  "homepage": "https://github.com/roxywasiak/practice-note-taker#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
