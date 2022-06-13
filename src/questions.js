@@ -1,3 +1,39 @@
+const noteTypeQuestion = {
+  type: "list",
+  message: "Please select the type of note to add:",
+  name: "type",
+  choices: [
+    {
+      name: "Bill",
+      value: "bill",
+      short: "Bill",
+    },
+    {
+      name: "Appointment",
+      value: "appointment",
+      short: "Appointment",
+    },
+    {
+      name: "List",
+      value: "list",
+      short: "List",
+    },
+    {
+      name: "Reminder",
+      value: "reminder",
+      short: "Reminder",
+    },
+  ],
+  // validate: () => {}
+};
+
+const addNewNoteQuestion = {
+  type: "confirm",
+  message: "Would you like to add another note?",
+  name: "addAnotherNote",
+  default: true,
+  // validate: () => {}
+};
 const billQuestions = [
   {
     type: "input",
