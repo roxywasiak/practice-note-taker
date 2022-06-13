@@ -1,8 +1,6 @@
-# practice-note-taker
+# note-taker-inquirer
 
 practising-for-note-taker
-
-# note-taker-inquirer
 
 ## User Stories
 
